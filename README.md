@@ -19,15 +19,17 @@ Node.js (for frontend)
 npm (for package management)
 Java (for backend)
 MongoDB (for the database) or MongoDB Atlas account for cloud hosting.
+
+
 1. Clone the repository
 Clone the repository to your local machine using Git:
-
 bash
 Copy
 Edit
 git clone https://github.com/your-username/nutriwise.git
 cd nutriwise
-2. Setup the Backend (Spring Boot)
+
+3. Setup the Backend (Spring Boot)
 Navigate to the backend directory:
 
 bash
@@ -44,6 +46,7 @@ bash
 Copy
 Edit
 mvn spring-boot:run
+
 If using Gradle:
 
 bash
@@ -108,3 +111,17 @@ Database: Use MongoDB Atlas for a remote cloud-hosted MongoDB database.
 None at the moment. If you encounter any issues, please raise them in the issues section of this repository.
 8. Contributing
 Feel free to fork this project and submit pull requests with improvements or bug fixes!
+
+Screenshots:
+![image](https://github.com/user-attachments/assets/34369a59-8ccb-4ddf-bf08-24a723cafbf1)
+
+![image](https://github.com/user-attachments/assets/6406c13c-93e5-45cd-9dc8-2298454b48bc)
+
+![image](https://github.com/user-attachments/assets/83f065da-77d6-44b9-b69d-2dd8bb283725) 
+
+![image](https://github.com/user-attachments/assets/71eb86f0-c046-45db-9a47-cfbf3e162ac1)
+
+
+
+
+
