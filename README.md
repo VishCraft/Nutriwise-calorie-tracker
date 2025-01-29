@@ -21,7 +21,7 @@ Java (for backend)
 MongoDB (for the database) or MongoDB Atlas account for cloud hosting.
 
 
-1. Clone the repository
+Clone the repository
 Clone the repository to your local machine using Git:
 bash
 Copy
@@ -29,7 +29,7 @@ Edit
 git clone https://github.com/your-username/nutriwise.git
 cd nutriwise
 
-3. Setup the Backend (Spring Boot)
+Setup the Backend (Spring Boot)
 Navigate to the backend directory:
 
 bash
@@ -65,7 +65,7 @@ Edit
 spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.mongodb.net/nutriwise?retryWrites=true&w=majority
 Your backend should now be running locally at http://localhost:8080.
 
-3. Setup the Frontend (React)
+Setup the Frontend (React)
 Navigate to the frontend directory:
 
 bash
@@ -90,26 +90,30 @@ Edit
 npm start
 Your frontend should now be accessible at http://localhost:3000.
 
-4. API Endpoints
+API Endpoints
 The backend exposes several API endpoints for interacting with food entries. Here are some of the key endpoints:
 
 POST /api/food: Add a new food entry.
 GET /api/food: Get all food entries for the day.
 DELETE /api/food/{id}: Delete a food entry.
-5. How to Use NutriWise
+
+How to Use NutriWise
 Login: Open the app in your browser (http://localhost:3000).
 Add Food: Click on the “Add Food” button to log a food entry with its calorie count.
 Track Calories: The app will update the total calorie count as you add food entries.
 Get Warnings: If your total calorie intake exceeds 1000 calories, you will receive a warning message.
-6. Deployment
+
+Deployment
 For production deployment, you can use the following platforms:
 
 Frontend: Host the React app on platforms like Netlify, Vercel, or GitHub Pages.
 Backend: Host the Spring Boot application on platforms like Heroku, Render, or Railway.
 Database: Use MongoDB Atlas for a remote cloud-hosted MongoDB database.
-7. Known Issues
+
+Known Issues
 None at the moment. If you encounter any issues, please raise them in the issues section of this repository.
-8. Contributing
+
+Contributing
 Feel free to fork this project and submit pull requests with improvements or bug fixes!
 
 Screenshots:
