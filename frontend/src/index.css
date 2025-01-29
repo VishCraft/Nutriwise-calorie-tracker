@@ -1,0 +1,12 @@
+/* src/index.css */
+
+/* Import the Tailwind CSS file */
+@import './styles/tailwind.css';
+
+/* You can add any custom global styles below */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
